@@ -66,7 +66,7 @@
 
 	http://www.albany.net/~hello/simple.htm
 
-	Here is another "Why FORTH?" essay: http://www.jwdt.com/~paysan/why-forth.html
+	Here is another "Why FORTH?" essay: https://bernd-paysan.de/why-forth.html
 
 	Discussion and criticism of this FORTH here: http://lambda-the-ultimate.org/node/2452
 
@@ -328,7 +328,7 @@
 
 	At this point, REALLY EAGLE-EYED ASSEMBLY EXPERTS are saying "JONES, YOU'VE MADE A MISTAKE!".
 
-	I lied about JMP *(%eax).  
+	I lied about JMP *(%eax).
 
 	INDIRECT THREADED CODE ----------------------------------------------------------------------
 
@@ -591,7 +591,7 @@ cold_start:			// High-level code without a codeword.
            ^       len                         pad  codeword      |
 	   |							  V
 	  LINK in next word				points to codeword of DUP
-	
+
 	Initially we can't just write ": DOUBLE DUP + ;" (ie. that literal string) here because we
 	don't yet have anything to read the string, break it up at spaces, parse each word, etc. etc.
 	So instead we will have to define built-in words using the GNU assembler data constructors
