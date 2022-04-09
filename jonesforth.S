@@ -64,7 +64,7 @@
 
 	http://wiki.laptop.org/go/Forth_Lessons
 
-	http://www.albany.net/~hello/simple.htm
+	http://www.murphywong.net/hello/simple.htm
 
 	Here is another "Why FORTH?" essay: https://bernd-paysan.de/why-forth.html
 
